@@ -3,9 +3,19 @@ site_name: UBELIX OnDemand Documentation
 # Copyright footer
 copyright: 'Copyright &copy; University of Bern, IT Service Office'
 # Link to repo
-repo_name: 'hpc-unibe-ch/hpc-docs'
-repo_url: 'https://github.com/hpc-unibe-ch/hpc-unibe-ch.github.io'
+repo_name: 'hpc-unibe-ch/ubelix-ondemand-docs'
+repo_url: 'https://github.com/hpc-unibe-ch/ubelix-ondemand-docs'
 edit_uri: 'edit/main/docs'
+
+use_directory_urls: false
+nav:
+  - index.md
+  - overview.md
+  - jupyter.md
+  - rstudio.md
+  - code-server.md
+  - troubleshooting.md
+  - feedback.md
 
 # Configuration
 theme:
