@@ -1,4 +1,4 @@
-# (VS)code server
+# (VS)Code server
 
 The (VS)Code server allows you to use the (VS)Code editor on UBELIX from your
 browser.
