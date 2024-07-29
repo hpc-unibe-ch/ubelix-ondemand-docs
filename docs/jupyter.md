@@ -68,6 +68,12 @@ jupyter kernelspec uninstall <unwanted-kernel>
 
 ## Working with jupyter extensions
 
+!!! warning
+    Using additional Jupyter extensions is considered an expert feature from our
+    side. Please note that we can't provide support for issues with extensions
+    at this time. **(Beta testers: If you have suggestions on this workflow we're
+    happy to hear them!)**
+
 Since jupyter is installed in a location that is not writable by regular users,
 the Jupyter Extension Manager is read-only. This means you can't install,
 remove, enable or disable Jupyter extensions directly from the Extension Manager
