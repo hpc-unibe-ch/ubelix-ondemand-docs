@@ -51,3 +51,4 @@ This is why you have to answer **yes** to this *"Would you like to use a persona
 - custom R versions, e.g. from Anaconda are not supported.
   If you have an idea on how to make this happen, get in touch!
 - you need to properly stop your R session from within RStudio Server before you exit or you will receive Warnings after the next login
+- RStudio Server doesn't know about any SLURM environment variables. Use `system('nproc')` is a reliable way to determine how many cores are actually available to you. Please avoid using `parallel::detectCores()` in your code as it does not return the number of "allowed" cores correctly.
